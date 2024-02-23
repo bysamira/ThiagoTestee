@@ -1,0 +1,25 @@
+.container-grid {
+    display: grid;
+    grid-template-areas: "item1-grid item1-grid" "item2-grid item3-grid";
+    grid-template-columns: 1fr 5fr;
+}
+
+.item1-grid {
+    grid-area: item1-grid;
+    background-color: rgb(236, 242, 248);
+}
+
+.item2-grid {
+    grid-area: item2-grid;
+    background-color: rgb(236, 242, 248);
+    padding: 1rem;
+}
+
+.item3-grid {
+    grid-area: item3-grid;
+    background-color: rgb(228, 223, 223);
+}
+
+body {
+    display: flex;
+}

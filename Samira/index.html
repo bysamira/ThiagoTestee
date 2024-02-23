@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Thiago</title>
+    <link rel="stylesheet" href="./css/stylemenu.css">
+    <link rel="stylesheet" href="./css/stylegrid.css">
+    <link rel="stylesheet" href="./css/card.css">
+</head>
+
+<body>
+    <div class="container-grid">
+        <header class="item1-grid headermenu">
+            <div class="teste2">
+                <div class="logo"><img
+                        src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F2295%2FLogo-new.png&w=1920&q=75"
+                        alt=""></div>
+                <div class="menu-container">
+                    <button class="menu">Grocery</button>
+                    <div class="menu-item">
+                        <ul class="lista">
+                            <li><a href="">Grocery</li>
+                            <li><a href="">Bakery</li></a>
+                            <li><a href="">Makeup</li></a>
+                            <li><a href="">Bags</li></a>
+                            <li><a href="">Clothing</li></a>
+                            <li><a href="">Furniture</li></a>
+                            <li><a href="">Daily Needs</li></a>
+                            <li><a href="">Books</li></a>
+                            <li><a href="">Gadget</li></a>
+                            <li><a href="">Medicine</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="teste">
+                <div class="submenu">Shops</div>
+                <div class="submenu">Offers</div>
+                <div class="submenu">Contact</div>
+                <div class="submenu">
+                    <div class="menu-container">
+                        <div>Pages</div>
+                        <ul class="menu-item lista">
+                            <li><a href="">Flash Sale</li></a>
+                            <li><a href="">Manufactures/Publishers</li></a>
+                            <li><a href="">Authors</li></a>
+                            <li><a href="">FAQ</li></a>
+                            <li><a href="">Terms & Conditions</li></a>
+                            <li><a href="">Customer Refund Policy</li></a>
+                            <li><a href="">Vendor Refund Policy</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="item2-grid">
+            <div class="menu-container">
+            <div onclick="js_abrir_fechar('zSubmenu1')"><h3>Fruits & Vegetables</h3></div>
+            <div style="display:none" id="zSubmenu1"> 
+                Fruits <br>
+                Vegetables <br>
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu2')"><h3>Meat & Fish</h3></div>
+            <div style="display:none" id="zSubmenu2"> 
+                Fresh Fish <br>
+                Meat
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu3')"><h3>Snacks</h3></div>
+            <div style="display:none" id="zSubmenu3"> 
+                Nuts & Biscuits <br>
+                Chocolates <br>
+                Crisps <br>
+                Noodles & Pasta <br>
+                Sauce <br>
+                Soup
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu4')"><h3>Pet Care</h3></div>
+            <div style="display:none" id="zSubmenu4"> 
+                Cat Food <br>
+                Doug Food <br>
+                Accessories
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu5')"><h3>Home & Cleaning</h3></div>
+            <div style="display:none" id="zSubmenu5"> 
+                Air Freshner <br>
+                Cleaning Products <br>
+                Kitchen Accessories <br>
+                Laundry
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu6')"><h3>Dairy</h3></div>
+            <div style="display:none" id="zSubmenu6"> 
+                Milk <br>
+                Butter <br>
+                Egg <br>
+                Yogurt
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu6')"><h3>Cooking</h3></div>
+            <div style="display:none" id="zSubmenu6"> 
+                Oil <br>
+                Rice <br>
+                Salt & Sugar <br>
+                Spices
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu7')"><h3>Breakfast</h3></div>
+            <div style="display:none" id="zSubmenu7"> 
+                Bread <br>
+                Cereal <br>
+                Jam <br>
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu8')"><h3>Beverage</h3></div>
+            <div style="display:none" id="zSubmenu8"> 
+                Coffee <br>
+                Energy Drinks <br>
+                Juice <br>
+                Fizzy Driks <br>
+                Juice <br>
+                Tea
+            </div>
+
+            <div onclick="js_abrir_fechar('zSubmenu9')"><h3>Health & Beauty</h3></div>
+            <div style="display:none" id="zSubmenu9"> 
+                Bath <br>
+                Cream <br>
+                Deodorant <br>
+                Face Care <br>
+                Oral Care <br>
+                Shaving Needs
+            </div>
+
+        </main>
+        <nav class="item3-grid">
+            <div class="card">
+                <img src="https://pickbazar-react-rest.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F736%2Fapple-2.png&w=640&q=75"
+                    alt="apple">
+                <p>Apples</p>
+                <p>1lb<br>
+                <span class="txt_sobre">$2.00</span><br>
+                <span class="txt_preco">$1.60</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+            <div class="card">
+                <img src="../images/espinafre.jpg" alt="espinafre">
+                <p>Baby Spinach</p>
+                <p>2Pfund<br>
+                <span class="txt_preco">$0.60</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+
+            <div class="card">
+                <img src="../images/blueberry.jpg" alt="blueberry">
+                <p>Bluberries</p>
+                <p>1lb<br>
+                <span class="txt_preco">$3.00</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+
+            <div class="card">
+                <img src="../images/bruxelas.jpg" alt="bruxelas">
+                <p>Brussels Sprout</p>
+                <p>1lb<br>
+                <span class="txt_sobre">$5.00</span><br>
+                <span class="txt_preco">$3.00</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+
+            <div class="card">
+                <img src="../images/mango.jpg" alt="mango">
+                <p>Mango</p>
+                <p>1lb<br>
+                <span class="txt_preco">$2.50</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+
+            <div class="card">
+                <img src="../images/clementines.jpg" alt="clementine">
+                <p>clementine</p>
+                <p>1lb
+                <span class="txt_sobre">$3.00</span><br>
+                <span class="txt_preco">$2.50</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+
+            <div class="card">
+                <img src="../images/corn.jpg" alt="corn">
+                <p>Sweet Corn</p>
+                <p>1lb
+                <span class="txt_sobre">$5.00</span><br>
+                <span class="txt_preco">$4.00</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+
+            <div class="card">
+                <img src="../images/cucumber.jpg" alt="cucumber">
+                <p>Cucumber</p>
+                <p>2.5lb
+                <span class="txt_preco">$2.50</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+
+            <div class="card">
+                <img src="../images/dates.jpg" alt="dates">
+                <p>Dates</p>
+                <p>1.5lb
+                <span class="txt_sobre">$10.00</span><br>
+                <span class="txt_preco">$8.00</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+
+            <div class="card">
+                <img src="../images/French.jpg" alt="French">
+                <p>French Green Beans</p>
+                <p>0.5lb
+                <span class="txt_sobre">$1.50</span><br>
+                <span class="txt_preco">$1.20</span>
+            </p>
+                <div class="btn_comprar"><button class="btn">Comprar</button></div>
+            </div>
+        </nav>
+    </div>
+
+    <script>
+        function js_abrir_fechar(id) {
+            let minhaDiv = document.getElementById(id);
+            if(minhaDiv.style.display === 'block') {
+                document.getElementById(id).style.display = 'none';
+            } else {
+                    document.getElementById(id).style.display = 'block';
+                }
+        }
+    </script>
+</body>
+
+</html>

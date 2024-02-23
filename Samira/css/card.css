@@ -1,0 +1,50 @@
+.card {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 7px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(200, 200, 200);
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px rgba(100, 100, 100);
+    transition: 0.5s;
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card p {
+    text-align: center;
+}
+
+.btn_comprar { 
+    text-align: right;
+    padding-right: 10px;
+}
+
+.txt_sobre {
+    text-decoration: line-through;
+}
+
+.txt_preco {
+    color: #328860;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: green;
+}
